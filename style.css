@@ -273,7 +273,7 @@ nav {
 
 .tag1 {
   align-items: center;
-  height: 5vh;
+  height: 7vh;
   text-align: center;
   background: #fff;
   border: 1px solid #8993a4;
@@ -298,7 +298,7 @@ nav {
 .tag2 {
   box-sizing: border-box;
   align-items: center;
-  height: 5vh;
+  height: 7vh;
   background: #fff;
   border: 1px solid #8993a4;
 }
@@ -306,7 +306,7 @@ nav {
 .tag3 {
   box-sizing: border-box;
   align-items: center;
-  height: 5vh;
+  height: 7vh;
   background: #fff;
   border: 1px solid #8993a4;
 }
@@ -315,7 +315,7 @@ nav {
   box-sizing: border-box;
   display: block;
   align-items: center;
-  height: 5vh;
+  height: 7vh;
   background: #fff;
   border: 1px solid #8993a4;
 }
@@ -558,6 +558,7 @@ nav {
   letter-spacing: 0.37px;
   color: #ff6b00;
   width: 100%;
+  padding-top: 8rem;
 }
 
 .description {
@@ -615,6 +616,7 @@ nav {
 .skill {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 120px 54px;
   gap: 24px;
   width: 100%;
@@ -628,7 +630,6 @@ nav {
   align-items: center;
   padding: 8px 12px;
   gap: 12px;
-  height: 41.46px;
 }
 
 .li-items {
@@ -662,14 +663,14 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 1.5rem;
 }
 
 .mjava {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px 0;
+  padding: 0;
   height: 48px;
 }
 
@@ -757,7 +758,6 @@ nav {
   gap: 24px;
   margin-top: 25px;
   width: 225.46px;
-  height: 360.46px;
 }
 
 .li-items1 p {
@@ -787,7 +787,7 @@ nav {
 }
 
 .spanskil {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .button:hover,
