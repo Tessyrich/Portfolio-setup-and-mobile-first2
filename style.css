@@ -600,7 +600,8 @@ nav {
 
 .img-about img {
   position: absolute;
-  bottom: 2rem;
+  top: -6rem;
+  bottom: 0;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
