@@ -833,3 +833,155 @@ a :disabled {
 .pro2 {
   display: none;
 }
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 3rem;
+  gap: 13px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #172b4d;
+  width: 100%;
+}
+
+input {
+  border: none;
+  width: 100%;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+.input {
+  width: 100%;
+}
+
+.inp2,
+.pro2 {
+  display: none;
+}
+
+textarea {
+  border: none;
+  width: 100%;
+  height: 118px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  background: #fbf8f7;
+  color: #3c3a39;
+}
+
+.get-in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  gap: 10px;
+  height: 3rem;
+  left: 100px;
+  border: none;
+  width: 43%;
+  margin: 1rem 0;
+  background: #ff6b00;
+}
+
+small {
+  color: red;
+  font-size: larger;
+  font-weight: 500;
+  background-color: #dfe1e6;
+}
+
+.get-in:hover {
+  background-color: white;
+  border: 1px solid#ff6b00;
+  color: #ff6b00;
+}
+
+.get-in:active {
+  background: #ff6b00;
+  color: #fff;
+}
+
+.get-in:disabled {
+  background-color: #dbd8d7;
+  color: #3c3a39;
+}
+
+.ico {
+  display: flex;
+}
+
+.ico-ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.sec-icon {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.di {
+  height: 1px;
+  width: 100%;
+  background: #dfe1e6;
+}
+
+.fin {
+  width: 30vw;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 6rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.inp3 {
+  display: none;
+}
+
+.button-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
