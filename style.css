@@ -839,15 +839,13 @@ a :disabled {
   flex-direction: column;
   align-items: flex-start;
   padding: 0 3rem;
-  gap: 58px;
+  gap: 13px;
   width: 100%;
 }
 
 form {
   display: flex;
   flex-direction: column;
-
-  /* align-items: center; */
   justify-content: center;
   width: 100%;
 }
@@ -858,7 +856,8 @@ form {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin: 2rem 0;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
   text-align: center;
   color: #172b4d;
   width: 100%;
@@ -941,15 +940,21 @@ small {
 
 .ico {
   display: flex;
-  gap: 1rem;
 }
 
 .ico-ul {
   display: flex;
   list-style: none;
   gap: 2rem;
+}
+
+.sec-icon {
   width: 100%;
-  background-color: #172b4d;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 .di {
@@ -963,18 +968,20 @@ small {
   height: 5px;
   background: #0d151e;
   border-radius: 10px;
-  margin-right: 2rem;
-}
-
-.inp3{
-  display: none;
-}
-
-.button-cont{
-  width: 100%;
-  display: flex;
+  margin-left: 6rem;
+  margin-bottom: 1rem;
   align-items: center;
   justify-content: center;
 }
 
+.inp3 {
+  display: none;
+}
 
+.button-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 7rem;
+}
