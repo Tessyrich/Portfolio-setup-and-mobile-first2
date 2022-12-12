@@ -1434,27 +1434,3 @@ small {
 
 }
 
-.row{
-  text-align: center;
-}
-
-.red-bing{
-  float: left;
-  width: 33.3%;
-  background-color: red;
-}
-.blue-bing{
-  float: left;
-  width: 33.3%;
-  background-color: blue;
-}
-.green-bing{
-  float: left;
-  width: 33.3%;
-  background-color: green;
-}
-@media screen and (max-width: 788px){
-  [class*=-bing]{
-    width: 100%;
-  }
-}
