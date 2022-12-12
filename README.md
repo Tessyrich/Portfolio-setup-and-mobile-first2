@@ -38,7 +38,8 @@
 
 # 📖 [your_project_name] <a name="about-project"></a>
 
-> This is my portfolio. My first project in Microverse
+> This is my portfolio. My first project in Microverse. This website include all the projects i have worked on and still working on.
+ Thos portfolio website gives you a sneak peak of what  i can help you build.
 
 **[Portfolio setup and mobile first]** 
 
@@ -85,9 +86,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +97,9 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > You can easily go through this web page by clicking on the menubar to get options on a particular section you can go to.
-For example, when you click on the contact link, it will take you to the section wghere you can fill in your details for follow-up.
+For example, when you click on the contact link, it will take you to the section where you can fill in your details for follow-up.
+
+when you also click on see project, you also get to see everything aout the project i built.
 
 ### Prerequisites
 
@@ -164,7 +167,7 @@ gitHub live pages
 👤 **Oluchi Theresa Ogbonna**
 
 - GitHub: [@githubhandle](https://github.com/tessyrich)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/oluchi-theresa-55b512220)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -174,7 +177,7 @@ gitHub live pages
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
+- [ ] **[Working menu bar]**
 - [ ] **[new_feature_2]**
 - [ ] **[new_feature_3]**
 
@@ -186,7 +189,7 @@ gitHub live pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Tessyrich/Portfolio-setup-and-mobile-first2/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,9 +197,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+> 
 
-If you like this project...
+If you like this project please reach out to me so that we will give you the best. You can also add contributions.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,9 +207,9 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> 
 
-I would like to thank...
+I would like to thank everyone of my viewers, you guys are wonderful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,9 +219,9 @@ I would like to thank...
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Question_1]**
+- **[How do you collect data after the contact form is filled?]**
 
-  - [Answer_1]
+  - [I used formspree. You can create an account  with formspree this will help you track if your contact form is valid. And the goo news is that formspree is totally free.]
 
 - **[Question_2]**
 
