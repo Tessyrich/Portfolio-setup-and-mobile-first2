@@ -3,7 +3,6 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -36,12 +35,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Tessy's Portfolio] <a name="about-project"></a>
 
 > This is my portfolio. My first project in Microverse. This website include all the projects i have worked on and still working on.
  Thos portfolio website gives you a sneak peak of what  i can help you build.
 
-**[Portfolio setup and mobile first]** 
+**[Portfolio setup: mobile first]** 
 
 ## 🛠 Built With <a name="built-with">HTML & CSS</a>
 
@@ -76,9 +75,9 @@
 
 > For this project i started with a mobile first version, and it also has an about me page.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- [ ] **[working buttons]**
+- [ ] **[Valid contact form]**
+- [ ] **[Responsive webpage]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -178,8 +177,8 @@ gitHub live pages
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Working menu bar]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[pop-up window]**
+- [ ] **[data perservation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -233,7 +232,7 @@ I would like to thank everyone of my viewers, you guys are wonderful.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE.txt) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
