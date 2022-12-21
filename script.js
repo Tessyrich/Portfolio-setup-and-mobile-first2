@@ -8,101 +8,101 @@ hamburger.addEventListener('click', () => {
 });
 
 function ClosePopUp() {
-    popContainer.style.display = 'none';
-  }
-  const dataCards = [
-    {
-      id: 0,
-      IMGURL: './images/imgnew/SnapshootPortfolio.png',
-      title: 'Keeping track of hundreds of components',
-      titlesmall: 'Multi-Post Stories',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
-      tecnologies: {
-        tech1: 'html',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby on rails',
-      },
-      LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
-      LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+  popContainer.style.display = 'none';
+}
+const dataCards = [
+  {
+    id: 0,
+    IMGURL: './images/imgnew/SnapshootPortfolio.png',
+    title: 'Keeping track of hundreds of components',
+    titlesmall: 'Multi-Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    tecnologies: {
+      tech1: 'html',
+      tech2: 'Bootstrap',
+      tech3: 'Ruby on rails',
     },
-    {
-      id: 1,
-      IMGURL: './images/imgnew/ImgPlaceholder(2).png',
-      title: 'Keeping track of hundreds of components',
-      titlesmall: 'Multi-Post Stories',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
-      tecnologies: {
-        tech1: 'html',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby on rails',
-      },
-      LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
-      LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+    LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
+    LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+  },
+  {
+    id: 1,
+    IMGURL: './images/imgnew/ImgPlaceholder(2).png',
+    title: 'Keeping track of hundreds of components',
+    titlesmall: 'Multi-Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    tecnologies: {
+      tech1: 'html',
+      tech2: 'Bootstrap',
+      tech3: 'Ruby on rails',
     },
-    {
-      id: 2,
-      IMGURL: './images/imgnew/SnapshootPortfolio.png',
-      title: 'Keeping track of hundreds of components',
-      titlesmall: 'Multi-Post Stories',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
-      tecnologies: {
-        tech1: 'html',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby on rails',
-      },
-      LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
-      LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+    LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
+    LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+  },
+  {
+    id: 2,
+    IMGURL: './images/imgnew/SnapshootPortfolio.png',
+    title: 'Keeping track of hundreds of components',
+    titlesmall: 'Multi-Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    tecnologies: {
+      tech1: 'html',
+      tech2: 'Bootstrap',
+      tech3: 'Ruby on rails',
     },
-    {
-      id: 3,
-      IMGURL: './images/imgnew/ImgPlaceholder(2).png',
-      title: 'Keeping track of hundreds of components',
-      titlesmall: 'Multi-Post Stories',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
-      tecnologies: {
-        tech1: 'html',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby on rails',
-      },
-      LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
-      LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+    LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
+    LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+  },
+  {
+    id: 3,
+    IMGURL: './images/imgnew/ImgPlaceholder(2).png',
+    title: 'Keeping track of hundreds of components',
+    titlesmall: 'Multi-Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    tecnologies: {
+      tech1: 'html',
+      tech2: 'Bootstrap',
+      tech3: 'Ruby on rails',
     },
-    {
-      id: 4,
-      IMGURL: './images/imgnew/SnapshootPortfolio.png',
-      title: 'Keeping track of hundreds of components',
-      titlesmall: 'Multi-Post Stories',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
-      tecnologies: {
-        tech1: 'html',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby on rails',
-      },
-      LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
-      LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+    LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
+    LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+  },
+  {
+    id: 4,
+    IMGURL: './images/imgnew/SnapshootPortfolio.png',
+    title: 'Keeping track of hundreds of components',
+    titlesmall: 'Multi-Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    tecnologies: {
+      tech1: 'html',
+      tech2: 'Bootstrap',
+      tech3: 'Ruby on rails',
     },
-    {
-      id: 5,
-      IMGURL: './images/imgnew/SnapshootPortfolio.png',
-      title: 'Keeping track of hundreds of components',
-      titlesmall: 'Multi-Post Stories',
-      description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
-      tecnologies: {
-        tech1: 'html',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby on rails',
-      },
-      LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
-      ILinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+    LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
+    LinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+  },
+  {
+    id: 5,
+    IMGURL: './images/imgnew/SnapshootPortfolio.png',
+    title: 'Keeping track of hundreds of components',
+    titlesmall: 'Multi-Post Stories',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita',
+    tecnologies: {
+      tech1: 'html',
+      tech2: 'Bootstrap',
+      tech3: 'Ruby on rails',
     },
-  ];
-  
-  const arrayOnclickBtn = document.querySelectorAll('.see1');
-  
-  const renderCards = (indx) => {
-    dataCards.map((card, cardIndx) => {
-      if (cardIndx === indx) {
-        document.querySelector('.pop-up').innerHTML = `
+    LinkToLive: 'https://tessyrich.github.io/Portfolio-setup-and-mobile-first2/',
+    ILinkToSource: 'https://github.com/Tessyrich/Portfolio-Setup-and-mobile-first2',
+  },
+];
+
+const arrayOnclickBtn = document.querySelectorAll('.see1');
+
+const renderCards = (indx) => {
+  dataCards.map((card, cardIndx) => {
+    if (cardIndx === indx) {
+      document.querySelector('.pop-up').innerHTML = `
         <div class="mult">
         <div class="ham va">
           <h2 class="post post-small">${card.titlesmall}</h2>
@@ -134,17 +134,15 @@ function ClosePopUp() {
         </div>
         </div>
         `;
-      }
-      return dataCards;
-    });
-  };
+    }
+    return dataCards;
+  });
+};
 
-  for (let i = 0; i < arrayOnclickBtn.length; i += 1) {
-    arrayOnclickBtn[i].addEventListener('click', () => {
-      renderCards(i);
-      ClosePopUp();
-      popContainer.style.display = 'block';
-    });
-  };
-
-  
+for (let i = 0; i < arrayOnclickBtn.length; i += 1) {
+  arrayOnclickBtn[i].addEventListener('click', () => {
+    renderCards(i);
+    ClosePopUp();
+    popContainer.style.display = 'block';
+  });
+}
