@@ -139,4 +139,12 @@ function ClosePopUp() {
     });
   };
 
+  for (let i = 0; i < arrayOnclickBtn.length; i += 1) {
+    arrayOnclickBtn[i].addEventListener('click', () => {
+      renderCards(i);
+      ClosePopUp();
+      popContainer.style.display = 'block';
+    });
+  };
+
   
