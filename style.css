@@ -331,7 +331,7 @@ nav {
 }
 
 .tagmain3 {
-  width: 32%;
+  height: 2.5rem;
 }
 
 .buttom {
@@ -1050,6 +1050,7 @@ small {
   font-size: 30px;
   cursor: pointer;
   color: #0d151e;
+  margin: 0;
 }
 
 .close-pop:hover,
@@ -1064,6 +1065,8 @@ small {
 
 .mult .post-small {
   margin-bottom: 4rem;
+  font-weight: 600;
+  color: #344563;
 }
 
 .but-details {
@@ -1097,7 +1100,7 @@ small {
 .ham {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 @media screen and (min-width: 768px) {
@@ -1496,6 +1499,8 @@ small {
   .mult .post-big {
     display: block;
     margin: 1rem 0;
+    font-weight: 600;
+    color: #344563;
   }
 
   .right-works {
