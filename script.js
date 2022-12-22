@@ -160,5 +160,9 @@ const errMsgEmail = document.querySelector('small');
 formVal.addEventListener('submit', (e) => {
   e.preventDefault();
   const regex = /[A-Z]/;
-
-
+  if (!regex.test(emailEl.value)) {
+    formVal.submit();
+  } else {
+    errMsgEmail.innerText = 'Your email should not be in Uppercase!';
+  }
+});
