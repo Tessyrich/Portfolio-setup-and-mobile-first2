@@ -191,4 +191,12 @@ const saveToLocal = () => {
   input.addEventListener('change', saveToLocal);
 });
 
+if (localStorage.getItem('FormStore')) {
+  const formInfo = JSON.parse(localStorage.getItem('FormStore'));
 
+  Firstnameinput.value = formInfo.Firstname;
+  Fullnameinput.value = formInfo.Fullname;
+  Lastnameinput.value = formInfo.Lastname;
+  Textareainput.value = formInfo.Textarea;
+  Emailinput.value = formInfo.Email;
+}
