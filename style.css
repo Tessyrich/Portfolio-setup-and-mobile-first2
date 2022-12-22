@@ -331,7 +331,7 @@ nav {
 }
 
 .tagmain3 {
-  width: 32%;
+  height: 2.5rem;
 }
 
 .buttom {
@@ -1025,6 +1025,84 @@ small {
   display: none;
 }
 
+.pop-container {
+  width: 100%;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0 !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  padding: 1em;
+  z-index: 999;
+  display: none;
+}
+
+.pop-up {
+  padding: 1rem;
+  background-color: #fff;
+  width: 100%;
+}
+
+.active-pop {
+  display: block;
+}
+
+.close-pop {
+  font-size: 30px;
+  cursor: pointer;
+  color: #0d151e;
+  margin: 0;
+}
+
+.close-pop:hover,
+.close-pop:focus {
+  color: black;
+  font-weight: 700;
+}
+
+.mult .post-big {
+  display: none;
+}
+
+.mult .post-small {
+  margin-bottom: 4rem;
+  font-weight: 600;
+  color: #344563;
+}
+
+.but-details {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.mult {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.details-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-text .sub-details {
+  margin-top: 1rem;
+}
+
+.desktop-img {
+  width: 100%;
+}
+
+.det-img {
+  width: 100%;
+}
+
+.ham {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
 @media screen and (min-width: 768px) {
   header {
     width: 100%;
@@ -1421,10 +1499,66 @@ small {
   .mult .post-big {
     display: block;
     margin: 1rem 0;
+    font-weight: 600;
+    color: #344563;
   }
 
   .right-works {
     justify-content: end;
     height: 100%;
+  }
+
+  .details-main {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .mult {
+    margin-bottom: 1.5rem;
+  }
+
+  .sub-details {
+    line-height: 30px;
+    margin-bottom: 3.5rem;
+  }
+
+  .details-img {
+    width: 100%;
+    position: relative;
+  }
+
+  .det-img {
+    width: 100%;
+  }
+
+  .but-details {
+    gap: 1rem;
+  }
+
+  .details-text {
+    width: 70%;
+  }
+
+  .details-text .text {
+    padding-bottom: 3em;
+  }
+
+  .pop-container {
+    padding: 3em 0 !important;
+    display: none;
+  }
+
+  .pop-container .hamburger {
+    display: block !important;
+  }
+
+  .pop-container .hamburger .bar {
+    color: red !important;
+  }
+
+  .pop-up {
+    width: 90%;
+    margin: auto;
   }
 }
