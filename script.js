@@ -151,3 +151,18 @@ for (let i = 0; i < arrayOnclickBtn.length; i += 1) {
     popContainer.style.display = 'block';
   });
 }
+
+// FORM VALIDATION
+const formVal = document.querySelector('.form');
+const emailEl = document.querySelector('#email');
+
+const errMsgEmail = document.querySelector('small');
+formVal.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const regex = /[A-Z]/;
+  if (!regex.test(emailEl.value)) {
+    formVal.submit();
+  } else {
+    errMsgEmail.innerText = 'Your email should not be in Uppercase!';
+  }
+});
