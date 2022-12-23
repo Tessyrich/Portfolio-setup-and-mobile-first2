@@ -3,7 +3,7 @@ const menuBar = document.querySelector('.menu-bar');
 const popContainer = document.getElementById('pop-container');
 
 hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
+  hamburger.classList.add('active');
   menuBar.classList.toggle('show-navbar');
 });
 
